@@ -1,0 +1,10 @@
+framework module HigherDeploymentFramework {
+  umbrella header "HigherDeploymentFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module HigherDeploymentFramework.Swift {
+    header "HigherDeploymentFramework-Swift.h"
+}
